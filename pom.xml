@@ -6,9 +6,9 @@
       
     <parent>
         <artifactId>org.apache.maven.plugins</artifactId>
-         <groupId>maven-deploy-plugin</groupId>
-         <version>2.7</version>
-	</parent>
+        <groupId>maven-deploy-plugin</groupId>
+        <version>2.7</version>
+    </parent>
     
 	<groupId>com.github.stokito</groupId>
     <artifactId>calculator-unit-test-example-java</artifactId>
