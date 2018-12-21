@@ -73,6 +73,14 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+			<plugin>
+                <groupId>org.openclover</groupId>
+                <artifactId>clover-maven-plugin</artifactId>
+                <configuration>
+                  <generateHtml>true</generateHtml>
+                  <generateXml>true</generateXml>
+                </configuration>
+			</plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
