@@ -47,7 +47,7 @@
         <!-- https://mvnrepository.com/artifact/org.openclover/clover -->
 		<dependency>
             <groupId>org.openclover</groupId>
-            <artifactId>clover</artifactId>
+            <artifactId>clover-maven-plugin</artifactId>
             <version>4.2.0</version>
         </dependency>		
         <dependency>
