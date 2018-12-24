@@ -76,7 +76,7 @@
 			<plugin>
 				<groupId>com.atlassian.maven.plugins</groupId>
 				<artifactId>clover-maven-plugin</artifactId>
-				<licenseLocation>/src/test/clover/clover.license</licenseLocation>
+				<licenseLocation>${basedir}/src/test/Clover/clover.license</licenseLocation>
 				<version>2.5.1</version>
 				<configuration>
 					<generateHtml>true</generateHtml>
