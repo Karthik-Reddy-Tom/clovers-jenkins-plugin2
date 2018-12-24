@@ -18,7 +18,7 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:https://github.com/stokito/calculator-unit-test-example-java.git</connection>
+		<connection>scm:git:https://github.com/stokito/calculator-unit-test-example-java/src/test/java/com/github/stokito/unitTestExample/calculator/CalculatorTest.java.git</connection>
 		<url>https://github.com/stokito/calculator-unit-test-example-java/src/test/java/com/github/stokito/unitTestExample/calculator/CalculatorTest.java</url>
 	</scm>
 
