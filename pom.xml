@@ -45,11 +45,19 @@
  
    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.openclover/clover -->
-		<dependency>
+		<!-- dependency>
             <groupId>org.openclover</groupId>
             <artifactId>clover-maven-plugin</artifactId>
             <version>4.10.0</version>
-        </dependency>		
+        </dependency -->
+
+<!-- https://mvnrepository.com/artifact/org.openclover/clover -->
+<dependency>
+    <groupId>org.openclover</groupId>
+    <artifactId>clover</artifactId>
+    <version>4.2.0</version>
+</dependency>
+		
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -78,7 +86,9 @@
 				<artifactId>clover-maven-plugin</artifactId>
 				<version>4.10.0</version >
 				<configuration>
-					<!-- licenseLocation>https://github.com/KarthikReddy12345/clovers-jenkins-plugin2/blob/master/src/test/Clover/clover.license.txt</licenseLocation -->
+					<!-- 
+licenseLocation>https://github.com/KarthikReddy12345/clovers-jenkins-plugin2/blob/master/src/test/Clover/clover.license.txt</licenseLocatio
+n -->
 					<generateHtml>true</generateHtml>
 					<generatePdf>true</generatePdf> 
 					<generateXml>true</generateXml>
