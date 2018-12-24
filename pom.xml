@@ -83,14 +83,14 @@
 					<generatePdf>true</generatePdf> 
 					<generateXml>true</generateXml>
 				</configuration>
-				<!-- executions>
+				<!--executions>
 					<execution>
 						<phase>generate-sources</phase>
 						<goals>
 							<goal>instrument</goal>
 						</goals>
-					</execution -->
-				</executions>
+					</execution>
+				</executions-->
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
