@@ -96,6 +96,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>
+				<version>3.0.6-SNAPSHOT</version>
 				<configuration>
 					<skip>true</skip>
 				</configuration>
