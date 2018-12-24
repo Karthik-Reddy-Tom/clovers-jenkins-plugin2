@@ -46,7 +46,7 @@
    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.openclover/clover -->
 		<dependency>
-            <groupId>org.openclover</groupId>
+            <groupId>com.atlassian.maven.plugins</groupId>
             <artifactId>clover-maven-plugin</artifactId>
             <version>4.2.0</version>
         </dependency>		
