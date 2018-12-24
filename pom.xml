@@ -76,7 +76,6 @@
 			<plugin>
 				<groupId>com.atlassian.maven.plugins</groupId>
 				<artifactId>clover-maven-plugin</artifactId>
-				<licenseLocation>https://github.com/KarthikReddy12345/clovers-jenkins-plugin2/blob/master/src/test/Clover/clover.license.txt</licenseLocation>
 				<version>2.5.1</version>
 				<configuration>
 					<generateHtml>true</generateHtml>
