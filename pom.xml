@@ -48,7 +48,7 @@
 		<dependency>
             <groupId>com.atlassian.maven.plugins</groupId>
             <artifactId>clover-maven-plugin</artifactId>
-            <version>3.0.2</version>
+            <version>4.1.2</version>
         </dependency>		
         <dependency>
             <groupId>junit</groupId>
@@ -76,7 +76,7 @@
 			<plugin>
 				<groupId>com.atlassian.maven.plugins</groupId>
 				<artifactId>clover-maven-plugin</artifactId>
-				<version>3.0.2</version>
+				<version>4.1.2</version>
 				<configuration>
 					<generateHtml>true</generateHtml>
 					<generatePdf>true</generatePdf> 
