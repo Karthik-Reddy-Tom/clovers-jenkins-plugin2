@@ -46,7 +46,7 @@
    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.openclover/clover -->
 		<dependency>
-            <groupId>org.openclover</groupId>
+            <groupId>com.atlassian.maven.plugins</groupId>
             <artifactId>clover-maven-plugin</artifactId>
             <version>4.1.2</version>
         </dependency>		
@@ -74,14 +74,14 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.openclover</groupId>
+				<groupId>com.atlassian.maven.plugins</groupId>
 				<artifactId>clover-maven-plugin</artifactId>
 				<version>4.1.2</version>
 				<configuration>
+					<licenseLocation>https://github.com/KarthikReddy12345/clovers-jenkins-plugin2/blob/master/src/test/Clover/clover.license.txt</licenseLocation>
 					<generateHtml>true</generateHtml>
 					<generatePdf>true</generatePdf> 
 					<generateXml>true</generateXml>
-					<generateHistorical>true</generateHistorical>
 				</configuration>
 				<executions>
 					<execution>
