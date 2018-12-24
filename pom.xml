@@ -76,7 +76,7 @@
 			<plugin>
 				<groupId>org.openclover</groupId>
 				<artifactId>clover-maven-plugin</artifactId>
-				<!--version>4.10.0</version -->
+				<version>4.10.0</version >
 				<configuration>
 					<!-- licenseLocation>https://github.com/KarthikReddy12345/clovers-jenkins-plugin2/blob/master/src/test/Clover/clover.license.txt</licenseLocation -->
 					<generateHtml>true</generateHtml>
